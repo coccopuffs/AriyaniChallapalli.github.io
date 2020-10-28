@@ -89,6 +89,8 @@ body {
     font-size: 3rem;
     position: relative;
     top: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .about-description {
@@ -96,4 +98,114 @@ body {
 }
 
 
+/*===== MY WORK =====*/
+.mywork-header {
+    font-family: 'Commissioner', sans-serif;
+    color: var(--purple-secondary);
+    text-align: center;
+    margin-bottom: 4rem;
+}
 
+.mywork-container {
+    height: calc(100vh - .75rem);
+    font-size: 3rem;
+    position: relative;
+    top: 6rem;
+}
+
+.mywork-grid {
+    display:grid;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+    grid-template-columns: 25rem 25rem 25rem;
+    grid-template-rows: 15rem 15rem;
+    position: absolute;
+}
+
+.mywork-griditem1 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--purple-secondary);
+    background-color: #E5E5FE;
+    border-radius: 2.5%;
+}
+
+.mywork-griditem1 :hover{
+    z-index: 888;
+    width: 77rem;
+    height: 32rem;
+    background-color: white;
+}
+
+.mywork-griditem2 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--purple-secondary);
+    background-color: #E5E5FE;
+    border-radius: 2.5%;
+}
+.mywork-griditem3 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--purple-secondary);
+    background-color: #E5E5FE;
+    border-radius: 2.5%;
+}
+.mywork-griditem4 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--purple-secondary);
+    background-color: #E5E5FE;
+    border-radius: 2.5%;
+}
+.mywork-griditem5 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--purple-secondary);
+    background-color: #E5E5FE;
+    border-radius: 2.5%;
+}
+.mywork-griditem5 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--purple-secondary);
+    background-color: #E5E5FE;
+    border-radius: 2.5%;
+}
+.mywork-griditem6 {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--purple-secondary);
+    background-color: #E5E5FE;
+    border-radius: 2.5%;
+}
+
+.item-title {
+    margin-top: 2rem;
+}
+
+.item-subtitle {
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+
+/*===== MY WORK =====*/
+.contactme-header {
+    font-family: 'Commissioner', sans-serif;
+    color: var(--purple-secondary);
+    text-align: center;
+}
+
+.contactme-container {
+    height: calc(100vh - .75rem);
+    font-size: 3rem;
+    position: relative;
+    top: 6rem;
+}
