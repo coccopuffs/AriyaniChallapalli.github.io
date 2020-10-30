@@ -12,6 +12,16 @@ body {
     margin-right: 1vw;
 }
 
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 /*===== NAV =====*/
 .menu {
     box-sizing: border-box;
@@ -114,6 +124,7 @@ body {
 }
 
 .mywork-grid {
+    position:relative;
     margin-left: auto;
     margin-right: auto;
     width: 77rem;
@@ -133,7 +144,7 @@ body {
     border-radius: 2.5%;
 }
 
-.mywork-griditem1 :hover{
+.mywork-griditem1 :focus{
     position: absolute;
     z-index: 2;
     width: 77rem;
@@ -152,14 +163,16 @@ body {
     border-radius: 2.5%;
 }
 
-.mywork-griditem2 :hover{
+.mywork-griditem2 :focus{
     position: absolute;
-    z-index: 3;
+    right: 0rem;
+    bottom: 0rem;
+    z-index: 2;
     width: 77rem;
-    height: 31rem;
+    height: 100%;
     background-color: #E5E5FE;
-    border-radius: 2.5%;
 }
+
 
 .mywork-griditem3 {
     display:flex;
@@ -168,6 +181,15 @@ body {
     color: var(--purple-secondary);
     background-color: #E5E5FE;
     border-radius: 2.5%;
+}
+
+.mywork-griditem3 :focus{
+    position: absolute;
+    right: 0rem;
+    z-index: 2;
+    width: 77rem;
+    height: 100%;
+    background-color: #E5E5FE;
 }
 
 .mywork-griditem4 {
@@ -179,14 +201,13 @@ body {
     border-radius: 2.5%;
 }
 
-.mywork-griditem4 :hover{
-    position: relative;
-    bottom: 16rem;
+.mywork-griditem4 :focus{
+    position: absolute;
+    bottom: 0rem;
     z-index: 2;
     width: 77rem;
-    height: 31rem;
+    height: 100%;
     background-color: #E5E5FE;
-    border-radius: 2.5%;
 }
 
 .mywork-griditem5 {
@@ -198,6 +219,16 @@ body {
     border-radius: 2.5%;
 }
 
+.mywork-griditem5 :focus{
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    z-index: 2;
+    width: 77rem;
+    height: 100%;
+    background-color: #E5E5FE;
+}
+
 .mywork-griditem6 {
     display:flex;
     flex-direction: column;
@@ -206,6 +237,17 @@ body {
     background-color: #E5E5FE;
     border-radius: 2.5%;
 }
+
+.mywork-griditem6 :focus{
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    z-index: 2;
+    width: 77rem;
+    height: 100%;
+    background-color: #E5E5FE;
+}
+
 
 .item-title {
     margin: 0;
